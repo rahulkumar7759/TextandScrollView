@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/rahul"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:text="I am Rahul Kumar, pursuing my bachelor's degree from the Department of Information Technology, National Institute of Science and Technology, India (CGPA 8.5/10) pursuing 3rd year in Information Technology.I have keen interest in Machine Learning, Natural language processing, Cloud computing.
+Now, I am eager to further my knowledge in machine learning by pursuing research in this field. Specifically, I am interested in exploring the intersection of machine learning and natural language processing, and how these techniques can be applied to improve the accuracy and efficiency of information retrieval systems. I am also keen to explore the potential of deep learning techniques in image and speech recognition applications. I believe that your research interests and expertise align closely with my own, and I am particularly impressed by your work on the development of novel algorithms for text analysis and machine learning."
+            android:textSize="10dp"
+            tools:ignore="TextSizeCheck" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:src="@drawable/rahul"
+        />
+
+
+
+</LinearLayout>
